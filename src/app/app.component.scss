@@ -1,0 +1,19 @@
+.page-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+
+  .top_bar {
+    background: #7da500;
+    height: 10px;
+    p {
+      color: #fff;
+      display: inline-block;
+      margin-right: 20px;
+    }
+    .social_icons {
+      display: inline-block;
+    }
+  }
+}
