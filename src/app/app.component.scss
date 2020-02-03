@@ -16,4 +16,34 @@
       display: inline-block;
     }
   }
+  .header_bottom {
+    height: 120px;
+    margin-bottom: 3px;
+    .logo {
+      line-height: 120px;
+      img {
+        vertical-align: middle;
+      }
+    }
+    nav{
+      ul,
+      li{
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+        display: inline-block;
+        margin-left: 25px;
+        a {
+          font: 700 14px 'Open Sans', arial, sans-serif;
+          display: block;
+          color: #222222;
+          text-transform: uppercase;
+          line-height: 120px;
+          &.active {
+              color: #7da500;
+          }
+        }
+      }
+    }
+  }
 }
